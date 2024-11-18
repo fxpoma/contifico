@@ -1,0 +1,53 @@
+{
+  "name": "contifico",
+  "version": "0.0.1",
+  "description": "Un módulo en desarrollo para interactuar con la API de Contífico, diseñado para facilitar la integración y el manejo de los endpoints disponibles. Actualmente, el módulo proporciona métodos para la gestión de productos, permitiendo consultar productos por diferentes criterios, obtener información detallada y acceder a recursos específicos por identificador. El objetivo final del módulo es abarcar todos los endpoints de la API de Contífico, brindando una interfaz simple y consistente para su uso en aplicaciones basadas en Node.js.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file .env.development.local --watch ./test.js"
+  },
+  "keywords": [
+    "API",
+    "Contífico",
+    "Products",
+    "Node.js",
+    "Integration",
+    "REST",
+    "SDK",
+    "Endpoints",
+    "Products Management",
+    "Stock",
+    "Inventory",
+    "Query Parameters",
+    "Business",
+    "ERP",
+    "Comisariato",
+    "POS",
+    "Javascript",
+    "Product Search",
+    "Dynamic Queries"
+  ],
+  "author": "fxpoma",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fxpoma/contifico.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fxpoma/contifico/issues"
+  },
+  "homepage": "https://github.com/fxpoma/contifico#readme"
+}
